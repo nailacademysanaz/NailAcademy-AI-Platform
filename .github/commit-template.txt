@@ -1,0 +1,36 @@
+# ==========================================
+# Enterprise AI Platform
+# Commit Message Template v1.0
+# ==========================================
+
+# Format:
+# <type>: <short description>
+#
+# Types:
+# feat     = New feature
+# fix      = Bug fix
+# docs     = Documentation
+# style    = Formatting/style changes
+# refactor = Code restructuring
+# perf     = Performance improvement
+# test     = Tests
+# build    = Build system
+# ci       = CI/CD changes
+# chore    = Maintenance
+# security = Security changes
+
+# Examples:
+#
+# feat: add authentication system
+# fix: resolve profile loading issue
+# docs: update installation guide
+# chore: update development dependencies
+
+
+type:
+
+scope:
+
+description:
+
+breaking-change:
