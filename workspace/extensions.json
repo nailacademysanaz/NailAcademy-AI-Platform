@@ -1,0 +1,35 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.pylance",
+    "ms-python.black-formatter",
+    "ms-python.debugpy",
+
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+
+    "eamodio.gitlens",
+
+    "ms-azuretools.vscode-docker",
+
+    "github.copilot-chat",
+
+    "pkief.material-icon-theme",
+
+    "usernamehw.errorlens",
+
+    "mikestead.dotenv",
+
+    "yzhang.markdown-all-in-one",
+
+    "christian-kohler.path-intellisense",
+    "christian-kohler.npm-intellisense"
+  ],
+
+  "unwantedRecommendations": [
+    "tabnine.tabnine-vscode",
+    "blackboxapp.blackbox",
+    "easycode.chatgpt"
+  ]
+}

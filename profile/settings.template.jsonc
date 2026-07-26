@@ -1,0 +1,255 @@
+{
+    //==================================================
+    // Enterprise AI Platform
+    // Profile Settings v1.0
+    // Module 01 - Appearance & User Experience
+    //==================================================
+    // ---------- Theme ----------
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.iconTheme": "material-icon-theme",
+    // ---------- Font ----------
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.lineHeight": 26,
+    "editor.letterSpacing": 0.3,
+    // ---------- Window ----------
+    "window.zoomLevel": 0,
+    // ---------- Cursor ----------
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    // ---------- Scrolling ----------
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    // ---------- Minimap ----------
+    "editor.minimap.enabled": true,
+    "editor.minimap.size": "fit",
+    "editor.minimap.renderCharacters": false,
+    // ---------- Navigation ----------
+    "editor.stickyScroll.enabled": true,
+    "breadcrumbs.enabled": true,
+    // ---------- Guides ----------
+    "editor.guides.bracketPairs": "active",
+    "editor.renderLineHighlight": "all",
+    // ---------- Explorer ----------
+    "explorer.compactFolders": false,
+    "explorer.sortOrder": "type",
+    // ---------- Tabs ----------
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    // ---------- Tree ----------
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "always",
+    // ---------- Startup ----------
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    //==================================================
+    // Module 02 - Editor Experience
+    //==================================================
+    // ---------- Suggestions ----------
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.suggestSelection": "first",
+    "editor.suggest.preview": true,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "selection",
+    "editor.linkedEditing": true,
+    "editor.guides.indentation": true,
+    "editor.mouseWheelZoom": true,
+    "workbench.commandPalette.history": 100,
+    "workbench.tips.enabled": false,
+    "editor.renderControlCharacters": false,
+    // ---------- Inline AI ----------
+    "editor.inlineSuggest.enabled": true,
+    // ---------- IntelliSense ----------
+    "editor.tabCompletion": "on",
+    "editor.parameterHints.enabled": true,
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    // ---------- Code Navigation ----------
+    "editor.gotoLocation.multipleDefinitions": "peek",
+    "editor.gotoLocation.multipleReferences": "peek",
+    "editor.gotoLocation.multipleImplementations": "peek",
+    // ---------- Selection ----------
+    "editor.selectionHighlight": true,
+    "editor.occurrencesHighlight": "singleFile",
+    // ---------- Folding ----------
+    "editor.folding": true,
+    "editor.foldingStrategy": "auto",
+    "editor.showFoldingControls": "mouseover",
+    // ---------- Brackets ----------
+    "editor.bracketPairColorization.enabled": true,
+    // ---------- Code Actions ----------
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    // ---------- Rename ----------
+    "editor.rename.enablePreview": false,
+    // ---------- Clipboard ----------
+    "editor.emptySelectionClipboard": false,
+    //==================================================
+    // Module 03 - Explorer & Files
+    //==================================================
+    // ---------- Explorer ----------
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.openEditors.visible": 10,
+    // ---------- File Nesting ----------
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    // ---------- Auto Save ----------
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    // ---------- Encoding ----------
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    // ---------- Clean Files ----------
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    // ---------- Hot Exit ----------
+    "files.hotExit": "onExitAndWindowClose",
+    // ---------- Search ----------
+    "search.useIgnoreFiles": true,
+    "search.useGlobalIgnoreFiles": true,
+    "search.followSymlinks": false,
+    //==================================================
+    // Module 04 - Terminal & Shell
+    //==================================================
+    // ---------- Default Terminal ----------
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    // ---------- Terminal Location ----------
+    "terminal.integrated.defaultLocation": "view",
+    // ---------- Terminal Appearance ----------
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorWidth": 1,
+    // ---------- Terminal Performance ----------
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.scrollback": 10000,
+    // ---------- Terminal Tabs ----------
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.tabs.showActiveTerminal": "singleTerminal",
+    // ---------- Session ----------
+    "terminal.integrated.enablePersistentSessions": true,
+    "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+    // ---------- Copy & Paste ----------
+    "terminal.integrated.copyOnSelection": false,
+    "terminal.integrated.rightClickBehavior": "paste",
+    //==================================================
+    // Module 05 - Git & GitLens
+    //==================================================
+    // ---------- Git ----------
+    "git.autofetch": true,
+    "git.confirmSync": true,
+    "git.confirmForcePush": true,
+    "git.enableSmartCommit": false,
+    "git.openRepositoryInParentFolders": "always",
+    // ---------- Git Decorations ----------
+    "git.decorations.enabled": true,
+    // ---------- GitLens ----------
+    "gitlens.currentLine.enabled": true,
+    "gitlens.codeLens.enabled": true,
+    "gitlens.hovers.enabled": true,
+    "gitlens.statusBar.enabled": true,
+    // ---------- GitLens Graph ----------
+    "gitlens.graph.autoFetch.enabled": true,
+    "gitlens.graph.minimap.enabled": true,
+    //==================================================
+    // Module 06 - GitHub Copilot & AI
+    //==================================================
+    // ---------- Chat ----------
+    "chat.commandCenter.enabled": true,
+    // ---------- Accessibility ----------
+    "accessibility.verbosity.inlineCompletions": false,
+    //==================================================
+    // Module 07 - Performance
+    //==================================================
+    // ---------- Editor ----------
+    "editor.largeFileOptimizations": true,
+    "editor.occurrencesHighlightDelay": 250,
+    // ---------- Watcher ----------
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.next/**": true,
+        "**/dist/**": true,
+        "**/.turbo/**": true,
+        "**/.vercel/**": true
+    },
+    // ---------- Search ----------
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.next": true,
+        "**/dist": true,
+        "**/.turbo": true,
+        "**/.vercel": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.ruff_cache": true
+    },
+    // ---------- Explorer ----------
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.ruff_cache": true
+    },
+    //==================================================
+    // Module 08 - Debugging
+    //==================================================
+    // ---------- Debug ----------
+    "debug.openDebug": "openOnDebugBreak",
+    "debug.toolBarLocation": "floating",
+    "debug.inlineValues": "on",
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.confirmOnExit": "always",
+    // ---------- Problems ----------
+    "problems.decorations.enabled": true,
+    //==================================================
+    // Module 09 - Security & Safety
+    //==================================================
+    // ---------- Workspace Trust ----------
+    "security.workspace.trust.enabled": true,
+    "security.workspace.trust.startupPrompt": "once",
+    "security.workspace.trust.untrustedFiles": "prompt",
+    // ---------- Terminal ----------
+    "terminal.integrated.confirmOnExit": "always",
+    // ---------- Editor ----------
+    "files.readonlyFromPermissions": true,
+    //==================================================
+    // Module 10 - Python Professional
+    //==================================================
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.enableParallelIndexing": true,
+    "python.analysis.includeAliasesFromUserFiles": true,
+    "python.analysis.logLevel": "Error",
+    "python.terminal.activateEnvironment": true,
+    "python.createEnvironment.trigger": "off",
+    "python.terminal.useEnvFile": true
+}

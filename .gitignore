@@ -1,0 +1,63 @@
+# ==========================================
+# Enterprise AI Platform
+# Global Git Ignore
+# ==========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# Mypy
+.mypy_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Node
+node_modules/
+
+# Next.js
+.next/
+
+# Turbo
+.turbo/
+
+# Vercel
+.vercel/
+
+# Backup archives
+Backup/*.zip
+*.zip
