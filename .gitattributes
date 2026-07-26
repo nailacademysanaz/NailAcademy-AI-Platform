@@ -1,0 +1,44 @@
+# ==========================================
+# Enterprise AI Platform
+# Git Attributes v1.0
+# ==========================================
+
+# Default line ending
+* text=auto eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Unix scripts
+*.sh text eol=lf
+
+# Programming languages
+*.py text
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.jsonc text
+*.yaml text
+*.yml text
+*.md text
+
+# VS Code files
+*.code-profile text
+*.code-workspace text
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# Archives
+*.zip binary
+*.7z binary
+*.tar binary
+*.gz binary
