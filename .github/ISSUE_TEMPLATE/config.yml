@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 📘 Project Documentation
+    url: https://github.com/nailacademysanaz/NailAcademy-AI-Platform
+    about: Read the project documentation before opening an issue.
+
+  - name: 🔒 Security Policy
+    url: https://github.com/nailacademysanaz/NailAcademy-AI-Platform/blob/main/SECURITY.md
+    about: Please report security vulnerabilities according to the security policy.
+
+  - name: 💬 Discussions
+    url: https://github.com/nailacademysanaz/NailAcademy-AI-Platform/discussions
+    about: Ask questions or start discussions here instead of creating an issue.
