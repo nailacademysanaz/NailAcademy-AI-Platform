@@ -14,18 +14,22 @@ on:
   schedule:
     - cron: "30 2 * * 1"
 
+
+permissions:
+  security-events: write
+  actions: read
+  contents: read
+  pull-requests: read
+
+
 jobs:
 
   analyze:
+
     name: Analyze (${{ matrix.language }})
 
     runs-on: ubuntu-latest
 
-    permissions:
-      security-events: write
-      packages: read
-      actions: read
-      contents: read
 
     strategy:
       fail-fast: false
@@ -33,6 +37,7 @@ jobs:
       matrix:
         language:
           - python
+
 
     steps:
 
